@@ -39,10 +39,7 @@
 		D93603422A5E8D4E003B74A1 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603392A5E8D4E003B74A1 /* Generics.swift */; };
 		D93603432A5E8D4E003B74A1 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936033A2A5E8D4E003B74A1 /* UINavigationController.swift */; };
 		D936034E2A5E8D60003B74A1 /* MoyaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603452A5E8D60003B74A1 /* MoyaService.swift */; };
-		D936034F2A5E8D60003B74A1 /* ForecastData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603482A5E8D60003B74A1 /* ForecastData.swift */; };
 		D93603502A5E8D60003B74A1 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603492A5E8D60003B74A1 /* TargetType.swift */; };
-		D93603512A5E8D60003B74A1 /* WaterTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936034B2A5E8D60003B74A1 /* WaterTargetType.swift */; };
-		D93603522A5E8D60003B74A1 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936034C2A5E8D60003B74A1 /* WeatherData.swift */; };
 		D93603582A5E8DC1003B74A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603572A5E8DC1003B74A1 /* HomeViewController.swift */; };
 		D936035A2A5E8DC8003B74A1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93603592A5E8DC8003B74A1 /* Home.storyboard */; };
 		D936035D2A5E92D5003B74A1 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936035C2A5E92D5003B74A1 /* MainTabBarViewController.swift */; };
@@ -118,10 +115,7 @@
 		D93603392A5E8D4E003B74A1 /* Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
 		D936033A2A5E8D4E003B74A1 /* UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		D93603452A5E8D60003B74A1 /* MoyaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaService.swift; sourceTree = "<group>"; };
-		D93603482A5E8D60003B74A1 /* ForecastData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastData.swift; sourceTree = "<group>"; };
 		D93603492A5E8D60003B74A1 /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
-		D936034B2A5E8D60003B74A1 /* WaterTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterTargetType.swift; sourceTree = "<group>"; };
-		D936034C2A5E8D60003B74A1 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		D93603572A5E8DC1003B74A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D93603592A5E8DC8003B74A1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D936035C2A5E92D5003B74A1 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
@@ -334,28 +328,9 @@
 			isa = PBXGroup;
 			children = (
 				D98988252A5FC99B00CB00BB /* InfoHome */,
-				D93603472A5E8D60003B74A1 /* Forecast */,
 				D93603492A5E8D60003B74A1 /* TargetType.swift */,
-				D936034A2A5E8D60003B74A1 /* Weather */,
 			);
 			path = Target;
-			sourceTree = "<group>";
-		};
-		D93603472A5E8D60003B74A1 /* Forecast */ = {
-			isa = PBXGroup;
-			children = (
-				D93603482A5E8D60003B74A1 /* ForecastData.swift */,
-			);
-			path = Forecast;
-			sourceTree = "<group>";
-		};
-		D936034A2A5E8D60003B74A1 /* Weather */ = {
-			isa = PBXGroup;
-			children = (
-				D936034B2A5E8D60003B74A1 /* WaterTargetType.swift */,
-				D936034C2A5E8D60003B74A1 /* WeatherData.swift */,
-			);
-			path = Weather;
 			sourceTree = "<group>";
 		};
 		D93603542A5E8D8E003B74A1 /* Home */ = {
@@ -660,7 +635,6 @@
 				D93603052A5E8528003B74A1 /* ViewController.swift in Sources */,
 				D936035D2A5E92D5003B74A1 /* MainTabBarViewController.swift in Sources */,
 				D93603012A5E8528003B74A1 /* AppDelegate.swift in Sources */,
-				D936034F2A5E8D60003B74A1 /* ForecastData.swift in Sources */,
 				D90F2A342A5EA67D0081DBA8 /* PrivilegesViewController.swift in Sources */,
 				D936033C2A5E8D4E003B74A1 /* UIStackView.swift in Sources */,
 				D936033B2A5E8D4E003B74A1 /* DateFormatComponent.swift in Sources */,
@@ -671,8 +645,6 @@
 				D93603032A5E8528003B74A1 /* SceneDelegate.swift in Sources */,
 				D93603422A5E8D4E003B74A1 /* Generics.swift in Sources */,
 				D93603432A5E8D4E003B74A1 /* UINavigationController.swift in Sources */,
-				D93603512A5E8D60003B74A1 /* WaterTargetType.swift in Sources */,
-				D93603522A5E8D60003B74A1 /* WeatherData.swift in Sources */,
 				D936033E2A5E8D4E003B74A1 /* UITableView.swift in Sources */,
 				D98988132A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.swift in Sources */,
 				D93603402A5E8D4E003B74A1 /* UIButton.swift in Sources */,

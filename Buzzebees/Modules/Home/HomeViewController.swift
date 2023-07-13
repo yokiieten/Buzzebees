@@ -11,12 +11,41 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     var viewModel: HomeViewModel = HomeViewModel()
+    lazy var navigationTitleImageView = UIImageView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
         fetchInfoHome()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+      super.viewWillAppear(animated)
+        setupNavigationBar()
+  }
+    
+    func setupNavigationBar() {
+        self.navigationTitleImageView.image = UIImage(named: "logo_text.png")
+        self.navigationTitleImageView.contentMode = .scaleAspectFill
+        
+        self.navigationTitleImageView.translatesAutoresizingMaskIntoConstraints = false
+
+        let logoView: UIView = UIView(frame: CGRect(x: 32, y: 0, width: 38 , height: 38))
+        let logImgView: UIImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 38, height: 38))
+        logImgView.image = UIImage(named: "ic_nearby")
+        logoView.addSubview(logImgView)
+        let logoBarBtn: UIBarButtonItem = UIBarButtonItem(customView: logoView)
+        navigationItem.leftBarButtonItem = logoBarBtn
+        if let navC = self.navigationController {
+            navC.navigationBar.addSubview(self.navigationTitleImageView)
+            self.navigationTitleImageView.centerXAnchor.constraint(equalTo: navC.navigationBar.centerXAnchor).isActive = true
+            self.navigationTitleImageView.centerYAnchor.constraint(equalTo: navC.navigationBar.centerYAnchor, constant: 0).isActive = true
+//            self.navigationTitleImageView.righ.constraint(equalTo: navC.navigationBar.centerYAnchor, constant: 0).isActive = true
+//            self.navigationTitleImageView.widthAnchor.constraint(equalTo: navC.navigationBar.widthAnchor, multiplier: 0.2).isActive = true
+//            self.navigationTitleImageView.heightAnchor.constraint(equalTo: navC.navigationBar.widthAnchor, multiplier: 0.088).isActive = true
+        }
+    }
+
     
     func setupTableView() {
         tableView.registerCells(classNames: [SignInTableViewCell.reuseIdentifer, BannerTableViewCell.reuseIdentifer, NewsAndPromotionTableViewCell.reuseIdentifer])
