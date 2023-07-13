@@ -14,6 +14,11 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupTableView()
+    }
+    
+    func setupTableView() {
+        tableView.registerCells(classNames: [SignInTableViewCell.reuseIdentifer])
     }
     
 }
@@ -26,7 +31,8 @@ extension HomeViewController: UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "SignInTableViewCell") as? SignInTableViewCell else { return UITableViewCell() }
+        return cell
     }
     
     

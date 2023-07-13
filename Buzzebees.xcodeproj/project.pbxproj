@@ -46,6 +46,8 @@
 		D936035A2A5E8DC8003B74A1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93603592A5E8DC8003B74A1 /* Home.storyboard */; };
 		D936035D2A5E92D5003B74A1 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936035C2A5E92D5003B74A1 /* MainTabBarViewController.swift */; };
 		D986CB022A5EF6AD008009AC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986CB012A5EF6AD008009AC /* HomeViewModel.swift */; };
+		D989880F2A5FA96B00CB00BB /* SignInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989880D2A5FA96B00CB00BB /* SignInTableViewCell.swift */; };
+		D98988102A5FA96B00CB00BB /* SignInTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D989880E2A5FA96B00CB00BB /* SignInTableViewCell.xib */; };
 		D9CDC9D92A5E9EE1006F9A63 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CDC9D82A5E9EE1006F9A63 /* MainTabBar.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +117,8 @@
 		D93603592A5E8DC8003B74A1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D936035C2A5E92D5003B74A1 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		D986CB012A5EF6AD008009AC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D989880D2A5FA96B00CB00BB /* SignInTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTableViewCell.swift; sourceTree = "<group>"; };
+		D989880E2A5FA96B00CB00BB /* SignInTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInTableViewCell.xib; sourceTree = "<group>"; };
 		D9CDC9D82A5E9EE1006F9A63 /* MainTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBar.storyboard; sourceTree = "<group>"; };
 		E1857C9526D97BBE2E5BC173 /* Pods_Buzzebees_BuzzebeesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buzzebees_BuzzebeesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -351,6 +355,8 @@
 		D986CB002A5EF623008009AC /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				D989880D2A5FA96B00CB00BB /* SignInTableViewCell.swift */,
+				D989880E2A5FA96B00CB00BB /* SignInTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -471,6 +477,7 @@
 				D936030A2A5E852A003B74A1 /* Assets.xcassets in Resources */,
 				D90F2A3B2A5EA6C20081DBA8 /* MyCoupon.storyboard in Resources */,
 				D93603082A5E8528003B74A1 /* Main.storyboard in Resources */,
+				D98988102A5FA96B00CB00BB /* SignInTableViewCell.xib in Resources */,
 				D90F2A372A5EA6960081DBA8 /* Privileges.storyboard in Resources */,
 				D936035A2A5E8DC8003B74A1 /* Home.storyboard in Resources */,
 			);
@@ -621,6 +628,7 @@
 				D93603522A5E8D60003B74A1 /* WeatherData.swift in Sources */,
 				D936033E2A5E8D4E003B74A1 /* UITableView.swift in Sources */,
 				D93603402A5E8D4E003B74A1 /* UIButton.swift in Sources */,
+				D989880F2A5FA96B00CB00BB /* SignInTableViewCell.swift in Sources */,
 				D93603532A5E8D60003B74A1 /* CharacterTargetType.swift in Sources */,
 				D90F2A412A5EA7000081DBA8 /* MoreViewController.swift in Sources */,
 				D936034E2A5E8D60003B74A1 /* MoyaService.swift in Sources */,
