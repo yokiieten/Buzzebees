@@ -655,63 +655,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8E708BC1-4AE4-4C8C-9AC7-7ACFAE167BC6"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Buzzebees/Modules/Home/Cells/NewsAndPromotionTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "setup(viewModel:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8E708BC1-4AE4-4C8C-9AC7-7ACFAE167BC6 - b6555fd980839ad7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Buzzebees.NewsAndPromotionTableViewCell.setup(viewModel: Buzzebees.NewsAndPromotionViewModel) -&gt; ()"
-                  moduleName = "Buzzebees"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sahassawat/Documents/iOS/Storyboard/Buzzebees/Buzzebees/Modules/Home/Cells/NewsAndPromotionTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "92">
-               </Location>
-               <Location
-                  uuid = "8E708BC1-4AE4-4C8C-9AC7-7ACFAE167BC6 - b6555fd980839ad7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Buzzebees.NewsAndPromotionTableViewCell.setup(viewModel: Buzzebees.NewsAndPromotionViewModel) -&gt; ()"
-                  moduleName = "Buzzebees"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sahassawat/Documents/iOS/Storyboard/Buzzebees/Buzzebees/Modules/Home/Cells/NewsAndPromotionTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "116">
-               </Location>
-               <Location
-                  uuid = "8E708BC1-4AE4-4C8C-9AC7-7ACFAE167BC6 - b6555fd980839ad7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Buzzebees.NewsAndPromotionTableViewCell.setup(viewModel: Buzzebees.NewsAndPromotionViewModel) -&gt; ()"
-                  moduleName = "Buzzebees"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sahassawat/Documents/iOS/Storyboard/Buzzebees/Buzzebees/Modules/Home/Cells/NewsAndPromotionTableViewCell.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "120">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -750,7 +703,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "555CD291-BD15-4B2F-93AE-570919D98DE2"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Buzzebees/Modules/Home/HomeViewController.swift"
@@ -846,14 +799,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D8D4A774-5321-49D8-8F7C-887A4020D97F"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Buzzebees/Modules/Home/Cells/NewsAndPromotionTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "setup(viewModel:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -862,14 +815,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "EF0EB633-1363-4A91-8AEF-175FD4E077D4"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Buzzebees/Modules/Home/Cells/NewsAndPromotionTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "setup(viewModel:)"
             landmarkType = "7">
          </BreakpointContent>

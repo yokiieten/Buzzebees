@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-Buzzebees/Pods-Buzzebees-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework
 ${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
