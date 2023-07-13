@@ -9,6 +9,7 @@ import Moya
 
 enum InfoHomeTargetType {
     case getInfoHome
+    case getPromotion
 
 }
 
@@ -17,17 +18,19 @@ extension InfoHomeTargetType: TargetType {
         switch self {
         case .getInfoHome:
             return "/b/PQIO"
+        case .getPromotion:
+            return "/b/RA8B"
         }
     }
     var method: Moya.Method {
         switch self {
-        case .getInfoHome:
+        case .getInfoHome, .getPromotion:
             return .get
         }
     }
     var task: Task {
         switch self {
-        case .getInfoHome:
+        case .getInfoHome, .getPromotion:
             return .requestPlain
         }
     }

@@ -47,6 +47,7 @@ extension HomeViewController: UITableViewDataSource {
         case .picture: break
         case .newsAndPromotion:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "NewsAndPromotionTableViewCell") as? NewsAndPromotionTableViewCell else { return UITableViewCell() }
+            cell.setup(viewModel: viewModel.newsAndPromotionViewModel)
             return cell
         case .privileges: break
         case .none: break

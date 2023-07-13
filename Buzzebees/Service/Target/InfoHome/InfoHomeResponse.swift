@@ -30,3 +30,11 @@ struct SubCampaignDetails: Codable {
     }
     
 }
+
+struct PromotionResponse: Codable {
+    let fullImageUrl: String?
+    
+    enum CodingKeys: String, CodingKey {
+        case fullImageUrl = "FullImageUrl"
+    }
+}
