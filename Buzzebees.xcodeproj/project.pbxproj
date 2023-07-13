@@ -10,6 +10,14 @@
 		6BD8EABAF3836BAD5F5C9814 /* Pods_Buzzebees.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076780F6253E3ACEF5C37AA2 /* Pods_Buzzebees.framework */; };
 		CC825A3419E3968FD54C25A2 /* Pods_BuzzebeesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815985A06A07784B930D8B97 /* Pods_BuzzebeesTests.framework */; };
 		CECA069BE62E81029B8C9C8B /* Pods_Buzzebees_BuzzebeesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1857C9526D97BBE2E5BC173 /* Pods_Buzzebees_BuzzebeesUITests.framework */; };
+		D90F2A342A5EA67D0081DBA8 /* PrivilegesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F2A322A5EA67D0081DBA8 /* PrivilegesViewController.swift */; };
+		D90F2A372A5EA6960081DBA8 /* Privileges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90F2A362A5EA6960081DBA8 /* Privileges.storyboard */; };
+		D90F2A392A5EA6A90081DBA8 /* MyCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F2A382A5EA6A90081DBA8 /* MyCouponViewController.swift */; };
+		D90F2A3B2A5EA6C20081DBA8 /* MyCoupon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90F2A3A2A5EA6C20081DBA8 /* MyCoupon.storyboard */; };
+		D90F2A3D2A5EA6DF0081DBA8 /* PromotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F2A3C2A5EA6DF0081DBA8 /* PromotionViewController.swift */; };
+		D90F2A3F2A5EA6EC0081DBA8 /* Promotion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90F2A3E2A5EA6EC0081DBA8 /* Promotion.storyboard */; };
+		D90F2A412A5EA7000081DBA8 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F2A402A5EA7000081DBA8 /* MoreViewController.swift */; };
+		D90F2A432A5EA70D0081DBA8 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90F2A422A5EA70D0081DBA8 /* More.storyboard */; };
 		D93603012A5E8528003B74A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603002A5E8528003B74A1 /* AppDelegate.swift */; };
 		D93603032A5E8528003B74A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603022A5E8528003B74A1 /* SceneDelegate.swift */; };
 		D93603052A5E8528003B74A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603042A5E8528003B74A1 /* ViewController.swift */; };
@@ -37,6 +45,8 @@
 		D93603582A5E8DC1003B74A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603572A5E8DC1003B74A1 /* HomeViewController.swift */; };
 		D936035A2A5E8DC8003B74A1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93603592A5E8DC8003B74A1 /* Home.storyboard */; };
 		D936035D2A5E92D5003B74A1 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936035C2A5E92D5003B74A1 /* MainTabBarViewController.swift */; };
+		D986CB022A5EF6AD008009AC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D986CB012A5EF6AD008009AC /* HomeViewModel.swift */; };
+		D9CDC9D92A5E9EE1006F9A63 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CDC9D82A5E9EE1006F9A63 /* MainTabBar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +75,14 @@
 		4A19B59FBD272B9FC36F505C /* Pods-Buzzebees-BuzzebeesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buzzebees-BuzzebeesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Buzzebees-BuzzebeesUITests/Pods-Buzzebees-BuzzebeesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		815985A06A07784B930D8B97 /* Pods_BuzzebeesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzzebeesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA92B8A11D89AEC34EFAB8D /* Pods-Buzzebees.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buzzebees.debug.xcconfig"; path = "Target Support Files/Pods-Buzzebees/Pods-Buzzebees.debug.xcconfig"; sourceTree = "<group>"; };
+		D90F2A322A5EA67D0081DBA8 /* PrivilegesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivilegesViewController.swift; sourceTree = "<group>"; };
+		D90F2A362A5EA6960081DBA8 /* Privileges.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Privileges.storyboard; sourceTree = "<group>"; };
+		D90F2A382A5EA6A90081DBA8 /* MyCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCouponViewController.swift; sourceTree = "<group>"; };
+		D90F2A3A2A5EA6C20081DBA8 /* MyCoupon.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyCoupon.storyboard; sourceTree = "<group>"; };
+		D90F2A3C2A5EA6DF0081DBA8 /* PromotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionViewController.swift; sourceTree = "<group>"; };
+		D90F2A3E2A5EA6EC0081DBA8 /* Promotion.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Promotion.storyboard; sourceTree = "<group>"; };
+		D90F2A402A5EA7000081DBA8 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		D90F2A422A5EA70D0081DBA8 /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
 		D93602FD2A5E8528003B74A1 /* Buzzebees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buzzebees.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93603002A5E8528003B74A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D93603022A5E8528003B74A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +114,8 @@
 		D93603572A5E8DC1003B74A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D93603592A5E8DC8003B74A1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D936035C2A5E92D5003B74A1 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		D986CB012A5EF6AD008009AC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D9CDC9D82A5E9EE1006F9A63 /* MainTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBar.storyboard; sourceTree = "<group>"; };
 		E1857C9526D97BBE2E5BC173 /* Pods_Buzzebees_BuzzebeesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buzzebees_BuzzebeesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,6 +168,42 @@
 				0169FE427C790FB8FA55C0E1 /* Pods-BuzzebeesTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D90F2A2E2A5EA5D20081DBA8 /* Privileges */ = {
+			isa = PBXGroup;
+			children = (
+				D90F2A322A5EA67D0081DBA8 /* PrivilegesViewController.swift */,
+				D90F2A362A5EA6960081DBA8 /* Privileges.storyboard */,
+			);
+			path = Privileges;
+			sourceTree = "<group>";
+		};
+		D90F2A2F2A5EA5E10081DBA8 /* MyCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				D90F2A382A5EA6A90081DBA8 /* MyCouponViewController.swift */,
+				D90F2A3A2A5EA6C20081DBA8 /* MyCoupon.storyboard */,
+			);
+			path = MyCoupon;
+			sourceTree = "<group>";
+		};
+		D90F2A302A5EA5ED0081DBA8 /* Promotion */ = {
+			isa = PBXGroup;
+			children = (
+				D90F2A3C2A5EA6DF0081DBA8 /* PromotionViewController.swift */,
+				D90F2A3E2A5EA6EC0081DBA8 /* Promotion.storyboard */,
+			);
+			path = Promotion;
+			sourceTree = "<group>";
+		};
+		D90F2A312A5EA6000081DBA8 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				D90F2A402A5EA7000081DBA8 /* MoreViewController.swift */,
+				D90F2A422A5EA70D0081DBA8 /* More.storyboard */,
+			);
+			path = More;
 			sourceTree = "<group>";
 		};
 		D93602F42A5E8528003B74A1 = {
@@ -209,6 +265,10 @@
 		D93603302A5E8D17003B74A1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D90F2A312A5EA6000081DBA8 /* More */,
+				D90F2A302A5EA5ED0081DBA8 /* Promotion */,
+				D90F2A2F2A5EA5E10081DBA8 /* MyCoupon */,
+				D90F2A2E2A5EA5D20081DBA8 /* Privileges */,
 				D936035B2A5E9292003B74A1 /* MainTabBar */,
 				D93603542A5E8D8E003B74A1 /* Home */,
 			);
@@ -271,7 +331,9 @@
 		D93603542A5E8D8E003B74A1 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D986CB002A5EF623008009AC /* Cells */,
 				D93603572A5E8DC1003B74A1 /* HomeViewController.swift */,
+				D986CB012A5EF6AD008009AC /* HomeViewModel.swift */,
 				D93603592A5E8DC8003B74A1 /* Home.storyboard */,
 			);
 			path = Home;
@@ -281,8 +343,16 @@
 			isa = PBXGroup;
 			children = (
 				D936035C2A5E92D5003B74A1 /* MainTabBarViewController.swift */,
+				D9CDC9D82A5E9EE1006F9A63 /* MainTabBar.storyboard */,
 			);
 			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		D986CB002A5EF623008009AC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,8 +465,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D936030D2A5E852A003B74A1 /* LaunchScreen.storyboard in Resources */,
+				D90F2A432A5EA70D0081DBA8 /* More.storyboard in Resources */,
+				D9CDC9D92A5E9EE1006F9A63 /* MainTabBar.storyboard in Resources */,
+				D90F2A3F2A5EA6EC0081DBA8 /* Promotion.storyboard in Resources */,
 				D936030A2A5E852A003B74A1 /* Assets.xcassets in Resources */,
+				D90F2A3B2A5EA6C20081DBA8 /* MyCoupon.storyboard in Resources */,
 				D93603082A5E8528003B74A1 /* Main.storyboard in Resources */,
+				D90F2A372A5EA6960081DBA8 /* Privileges.storyboard in Resources */,
 				D936035A2A5E8DC8003B74A1 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,12 +602,15 @@
 			files = (
 				D93603502A5E8D60003B74A1 /* TargetType.swift in Sources */,
 				D936033D2A5E8D4E003B74A1 /* ViewExtension.swift in Sources */,
+				D90F2A392A5EA6A90081DBA8 /* MyCouponViewController.swift in Sources */,
+				D986CB022A5EF6AD008009AC /* HomeViewModel.swift in Sources */,
 				D93603582A5E8DC1003B74A1 /* HomeViewController.swift in Sources */,
 				D936033F2A5E8D4E003B74A1 /* UITableViewCell.swift in Sources */,
 				D93603052A5E8528003B74A1 /* ViewController.swift in Sources */,
 				D936035D2A5E92D5003B74A1 /* MainTabBarViewController.swift in Sources */,
 				D93603012A5E8528003B74A1 /* AppDelegate.swift in Sources */,
 				D936034F2A5E8D60003B74A1 /* ForecastData.swift in Sources */,
+				D90F2A342A5EA67D0081DBA8 /* PrivilegesViewController.swift in Sources */,
 				D936033C2A5E8D4E003B74A1 /* UIStackView.swift in Sources */,
 				D936033B2A5E8D4E003B74A1 /* DateFormatComponent.swift in Sources */,
 				D93603412A5E8D4E003B74A1 /* UIImageView.swift in Sources */,
@@ -544,7 +622,9 @@
 				D936033E2A5E8D4E003B74A1 /* UITableView.swift in Sources */,
 				D93603402A5E8D4E003B74A1 /* UIButton.swift in Sources */,
 				D93603532A5E8D60003B74A1 /* CharacterTargetType.swift in Sources */,
+				D90F2A412A5EA7000081DBA8 /* MoreViewController.swift in Sources */,
 				D936034E2A5E8D60003B74A1 /* MoyaService.swift in Sources */,
+				D90F2A3D2A5EA6DF0081DBA8 /* PromotionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

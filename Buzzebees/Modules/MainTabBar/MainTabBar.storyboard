@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RzI-VC-bUe">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HomeViewController-->
+        <scene sceneID="zxA-zS-kt9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" referencedIdentifier="HomeViewController" id="5al-Qw-na7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="ic_home-inact" landscapeImage="ic_home-inact" largeContentSizeImage="ic_home-inact" selectedImage="ic_home-active" id="ka5-oA-pux"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QSB-Hl-u1U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-225" y="484"/>
+        </scene>
+        <!--PrivilegesViewController-->
+        <scene sceneID="uTp-bJ-Iya">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Privileges" referencedIdentifier="PrivilegesViewController" id="qfq-K7-1wH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="ic_privilege-inact" selectedImage="ic_privilege-active" id="w4S-PX-yWH"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3xU-uc-x2g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113" y="484"/>
+        </scene>
+        <!--MyCouponViewController-->
+        <scene sceneID="l37-mA-ToL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyCoupon" referencedIdentifier="MyCouponViewController" id="pbk-kr-u3y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="ic_coupon-inact-1" landscapeImage="ic_coupon-inact-1" largeContentSizeImage="ic_coupon-inact-1" selectedImage="ic_coupon-active-1" id="IIs-Sg-ahu"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rgp-oV-qbD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="462" y="484"/>
+        </scene>
+        <!--PromotionViewController-->
+        <scene sceneID="sJj-lG-T0q">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Promotion" referencedIdentifier="PromotionViewController" id="Mjh-qt-Fxt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="switch.programmable.square.fill" catalog="system" selectedImage="ic_promotion-active" id="hLo-U4-LuE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6XV-M3-MHD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="809" y="484"/>
+        </scene>
+        <!--MoreViewController-->
+        <scene sceneID="pJX-z6-OqQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="More" referencedIdentifier="MoreViewController" id="fjA-YH-QeK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" image="ic_more-inact" selectedImage="ic_more-active" id="ZHt-Fo-HyZ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7RZ-kg-yUT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1134" y="484"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="gv5-Ij-hvl">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabBarViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RzI-VC-bUe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iph-t0-fKO">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="5al-Qw-na7" kind="relationship" relationship="viewControllers" id="Jz4-zh-C9M"/>
+                        <segue destination="qfq-K7-1wH" kind="relationship" relationship="viewControllers" id="bGT-0Z-yqb"/>
+                        <segue destination="pbk-kr-u3y" kind="relationship" relationship="viewControllers" id="SLk-pQ-Xgx"/>
+                        <segue destination="Mjh-qt-Fxt" kind="relationship" relationship="viewControllers" id="uZK-Cp-GYM"/>
+                        <segue destination="fjA-YH-QeK" kind="relationship" relationship="viewControllers" id="UGL-X4-Y7d"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kQR-Go-CbN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="197.70992366412213" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_coupon-active-1" width="44" height="27"/>
+        <image name="ic_coupon-inact-1" width="44" height="27"/>
+        <image name="ic_home-active" width="44" height="27"/>
+        <image name="ic_home-inact" width="44" height="27"/>
+        <image name="ic_more-active" width="44" height="27"/>
+        <image name="ic_more-inact" width="44" height="27"/>
+        <image name="ic_privilege-active" width="44" height="27"/>
+        <image name="ic_privilege-inact" width="44" height="27"/>
+        <image name="ic_promotion-active" width="128" height="128"/>
+        <image name="switch.programmable.square.fill" catalog="system" width="128" height="114"/>
+    </resources>
+</document>

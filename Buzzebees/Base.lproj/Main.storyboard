@@ -1,43 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vhr-AK-i5K">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Tab Bar View Controller-->
-        <scene sceneID="dFp-m7-YbX">
+        <!--View Controller-->
+        <scene sceneID="vD8-fC-cf3">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="rLO-9P-cac" customClass="MainTabBarViewController" customModule="Buzzebees" customModuleProvider="target" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n3v-sC-f4E">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="NwJ-rR-vaL" kind="relationship" relationship="viewControllers" id="ciy-iG-UrM"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="19y-Oy-Bnl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="vhr-AK-i5K" customClass="ViewController" customModule="Buzzebees" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Nu-7M-1k1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="A3M-ca-7JM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Xo-J8-wKi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
-        </scene>
-        <!--Home-->
-        <scene sceneID="f6X-kC-qWL">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Home" id="NwJ-rR-vaL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="ic_home-inact" selectedImage="ic_home-active" id="VkN-uG-K4g"/>
-                    <navigationItem key="navigationItem" id="Sbv-lO-AtT"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8E6-Qj-mMK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-313" y="547"/>
+            <point key="canvasLocation" x="-865" y="-35"/>
         </scene>
     </scenes>
     <resources>
-        <image name="ic_home-active" width="44" height="27"/>
-        <image name="ic_home-inact" width="44" height="27"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

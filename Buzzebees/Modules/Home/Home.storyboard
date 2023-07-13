@@ -8,16 +8,30 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home View Controller-->
+        <!--Home-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="HomeViewController" customModule="Buzzebees" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="HomeViewController" customModule="Buzzebees" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="15B-5d-BGn">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="15B-5d-BGn" secondAttribute="bottom" id="T0R-aU-l3u"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="15B-5d-BGn" secondAttribute="trailing" id="dVG-68-Zvg"/>
+                            <constraint firstItem="15B-5d-BGn" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="nwY-11-L8G"/>
+                            <constraint firstItem="15B-5d-BGn" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="qcI-rb-rKi"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="ic_home-active" selectedImage="ic_home-inact" id="jsN-DR-FSU"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -25,6 +39,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ic_home-active" width="44" height="27"/>
+        <image name="ic_home-inact" width="44" height="27"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
