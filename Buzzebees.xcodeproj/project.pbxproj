@@ -41,7 +41,6 @@
 		D93603502A5E8D60003B74A1 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603492A5E8D60003B74A1 /* TargetType.swift */; };
 		D93603512A5E8D60003B74A1 /* WaterTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936034B2A5E8D60003B74A1 /* WaterTargetType.swift */; };
 		D93603522A5E8D60003B74A1 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936034C2A5E8D60003B74A1 /* WeatherData.swift */; };
-		D93603532A5E8D60003B74A1 /* CharacterTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936034D2A5E8D60003B74A1 /* CharacterTargetType.swift */; };
 		D93603582A5E8DC1003B74A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93603572A5E8DC1003B74A1 /* HomeViewController.swift */; };
 		D936035A2A5E8DC8003B74A1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93603592A5E8DC8003B74A1 /* Home.storyboard */; };
 		D936035D2A5E92D5003B74A1 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D936035C2A5E92D5003B74A1 /* MainTabBarViewController.swift */; };
@@ -50,6 +49,8 @@
 		D98988102A5FA96B00CB00BB /* SignInTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D989880E2A5FA96B00CB00BB /* SignInTableViewCell.xib */; };
 		D98988132A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98988112A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.swift */; };
 		D98988142A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98988122A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib */; };
+		D98988272A5FCA0100CB00BB /* InfoHomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98988262A5FCA0100CB00BB /* InfoHomeResponse.swift */; };
+		D98988292A5FCC8F00CB00BB /* InfoHomeTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98988282A5FCC8F00CB00BB /* InfoHomeTargetType.swift */; };
 		D9CDC9D92A5E9EE1006F9A63 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CDC9D82A5E9EE1006F9A63 /* MainTabBar.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -114,7 +115,6 @@
 		D93603492A5E8D60003B74A1 /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 		D936034B2A5E8D60003B74A1 /* WaterTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterTargetType.swift; sourceTree = "<group>"; };
 		D936034C2A5E8D60003B74A1 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
-		D936034D2A5E8D60003B74A1 /* CharacterTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterTargetType.swift; sourceTree = "<group>"; };
 		D93603572A5E8DC1003B74A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D93603592A5E8DC8003B74A1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D936035C2A5E92D5003B74A1 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +123,8 @@
 		D989880E2A5FA96B00CB00BB /* SignInTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInTableViewCell.xib; sourceTree = "<group>"; };
 		D98988112A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAndPromotionTableViewCell.swift; sourceTree = "<group>"; };
 		D98988122A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsAndPromotionTableViewCell.xib; sourceTree = "<group>"; };
+		D98988262A5FCA0100CB00BB /* InfoHomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoHomeResponse.swift; sourceTree = "<group>"; };
+		D98988282A5FCC8F00CB00BB /* InfoHomeTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoHomeTargetType.swift; sourceTree = "<group>"; };
 		D9CDC9D82A5E9EE1006F9A63 /* MainTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBar.storyboard; sourceTree = "<group>"; };
 		E1857C9526D97BBE2E5BC173 /* Pods_Buzzebees_BuzzebeesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buzzebees_BuzzebeesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -311,10 +313,10 @@
 		D93603462A5E8D60003B74A1 /* Target */ = {
 			isa = PBXGroup;
 			children = (
+				D98988252A5FC99B00CB00BB /* InfoHome */,
 				D93603472A5E8D60003B74A1 /* Forecast */,
 				D93603492A5E8D60003B74A1 /* TargetType.swift */,
 				D936034A2A5E8D60003B74A1 /* Weather */,
-				D936034D2A5E8D60003B74A1 /* CharacterTargetType.swift */,
 			);
 			path = Target;
 			sourceTree = "<group>";
@@ -365,6 +367,15 @@
 				D98988122A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		D98988252A5FC99B00CB00BB /* InfoHome */ = {
+			isa = PBXGroup;
+			children = (
+				D98988262A5FCA0100CB00BB /* InfoHomeResponse.swift */,
+				D98988282A5FCC8F00CB00BB /* InfoHomeTargetType.swift */,
+			);
+			path = InfoHome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -627,6 +638,7 @@
 				D90F2A342A5EA67D0081DBA8 /* PrivilegesViewController.swift in Sources */,
 				D936033C2A5E8D4E003B74A1 /* UIStackView.swift in Sources */,
 				D936033B2A5E8D4E003B74A1 /* DateFormatComponent.swift in Sources */,
+				D98988292A5FCC8F00CB00BB /* InfoHomeTargetType.swift in Sources */,
 				D93603412A5E8D4E003B74A1 /* UIImageView.swift in Sources */,
 				D93603032A5E8528003B74A1 /* SceneDelegate.swift in Sources */,
 				D93603422A5E8D4E003B74A1 /* Generics.swift in Sources */,
@@ -637,7 +649,7 @@
 				D98988132A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.swift in Sources */,
 				D93603402A5E8D4E003B74A1 /* UIButton.swift in Sources */,
 				D989880F2A5FA96B00CB00BB /* SignInTableViewCell.swift in Sources */,
-				D93603532A5E8D60003B74A1 /* CharacterTargetType.swift in Sources */,
+				D98988272A5FCA0100CB00BB /* InfoHomeResponse.swift in Sources */,
 				D90F2A412A5EA7000081DBA8 /* MoreViewController.swift in Sources */,
 				D936034E2A5E8D60003B74A1 /* MoyaService.swift in Sources */,
 				D90F2A3D2A5EA6DF0081DBA8 /* PromotionViewController.swift in Sources */,

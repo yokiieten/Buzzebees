@@ -19,9 +19,12 @@ class MoyaService<Response: Decodable> {
                 
             case .success(let response):
                 do {
-                    let Response = try JSONDecoder().decode(Response.self, from: response.data)
+                    let decoder = JSONDecoder()
+                    print("statusCode", response.response?.statusCode)
+                    let Response = try decoder.decode(Response.self, from: response.data)
                     completion(.success(result: Response))
                 } catch(let error) {
+                    print(String(describing: error))
                     completion(.failure(error: error))
                 }
             case .failure(let error):

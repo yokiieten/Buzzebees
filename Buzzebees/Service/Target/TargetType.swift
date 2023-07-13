@@ -13,7 +13,7 @@ extension TargetType {
     }
     
     var baseURL: URL {
-        URL(string: "https://api.openweathermap.org")!
+        URL(string: "https://www.jsonkeeper.com")!
     }
     
     var sampleData: Data {

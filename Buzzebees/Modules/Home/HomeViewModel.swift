@@ -30,5 +30,21 @@ enum HomeSectionViewType {
 }
 
 class HomeViewModel {
+    var infoHome: [InfoHomeResponse?] = []
+    var didLoadData: (() -> Void)?
+    
+    func fetchInfoHome() {
+        let target = InfoHomeTargetType.getInfoHome
+        MoyaService<[InfoHomeResponse?]>.getRequest(target: target) { [weak self] result in
+            switch result {
+                
+            case .success(result: let result):
+                self?.infoHome = result
+                self?.didLoadData?()
+            case .failure(error: let error):
+                print("ErrorServer", error.localizedDescription)
+            }
+        }
+    }
     
 }

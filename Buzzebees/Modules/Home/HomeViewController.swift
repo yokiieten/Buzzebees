@@ -15,10 +15,18 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
+        fetchInfoHome()
     }
     
     func setupTableView() {
         tableView.registerCells(classNames: [SignInTableViewCell.reuseIdentifer, NewsAndPromotionTableViewCell.reuseIdentifer])
+    }
+    
+    func fetchInfoHome() {
+        viewModel.fetchInfoHome()
+        viewModel.didLoadData = { [weak self] in
+            self?.tableView.reloadData()
+        }
     }
     
 }
