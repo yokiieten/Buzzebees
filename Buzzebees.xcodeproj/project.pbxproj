@@ -53,6 +53,7 @@
 		D98988142A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98988122A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib */; };
 		D98988272A5FCA0100CB00BB /* InfoHomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98988262A5FCA0100CB00BB /* InfoHomeResponse.swift */; };
 		D98988292A5FCC8F00CB00BB /* InfoHomeTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98988282A5FCC8F00CB00BB /* InfoHomeTargetType.swift */; };
+		D9C79C882A602D99002F6D62 /* UICollectionView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C79C872A602D99002F6D62 /* UICollectionView+RegisterCell.swift */; };
 		D9CDC9D92A5E9EE1006F9A63 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9CDC9D82A5E9EE1006F9A63 /* MainTabBar.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +130,7 @@
 		D98988122A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsAndPromotionTableViewCell.xib; sourceTree = "<group>"; };
 		D98988262A5FCA0100CB00BB /* InfoHomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoHomeResponse.swift; sourceTree = "<group>"; };
 		D98988282A5FCC8F00CB00BB /* InfoHomeTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoHomeTargetType.swift; sourceTree = "<group>"; };
+		D9C79C872A602D99002F6D62 /* UICollectionView+RegisterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterCell.swift"; sourceTree = "<group>"; };
 		D9CDC9D82A5E9EE1006F9A63 /* MainTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainTabBar.storyboard; sourceTree = "<group>"; };
 		E1857C9526D97BBE2E5BC173 /* Pods_Buzzebees_BuzzebeesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buzzebees_BuzzebeesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -301,6 +303,7 @@
 		D93603312A5E8D4E003B74A1 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D9C79C872A602D99002F6D62 /* UICollectionView+RegisterCell.swift */,
 				D93603322A5E8D4E003B74A1 /* DateFormatComponent.swift */,
 				D93603332A5E8D4E003B74A1 /* UIStackView.swift */,
 				D93603342A5E8D4E003B74A1 /* ViewExtension.swift */,
@@ -645,6 +648,7 @@
 				D90F2A392A5EA6A90081DBA8 /* MyCouponViewController.swift in Sources */,
 				D986CB022A5EF6AD008009AC /* HomeViewModel.swift in Sources */,
 				D93603582A5E8DC1003B74A1 /* HomeViewController.swift in Sources */,
+				D9C79C882A602D99002F6D62 /* UICollectionView+RegisterCell.swift in Sources */,
 				D936033F2A5E8D4E003B74A1 /* UITableViewCell.swift in Sources */,
 				D93603052A5E8528003B74A1 /* ViewController.swift in Sources */,
 				D936035D2A5E92D5003B74A1 /* MainTabBarViewController.swift in Sources */,

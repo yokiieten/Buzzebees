@@ -6,6 +6,7 @@ target 'Buzzebees' do
   use_frameworks!
   pod 'Moya'
   pod 'FSPagerView'
+  pod 'SDWebImage', '~> 5.0'
   # Pods for Buzzebees
 
   target 'BuzzebeesTests' do
