@@ -19,7 +19,7 @@ class HomeViewController: UIViewController {
     }
     
     func setupTableView() {
-        tableView.registerCells(classNames: [SignInTableViewCell.reuseIdentifer, NewsAndPromotionTableViewCell.reuseIdentifer])
+        tableView.registerCells(classNames: [SignInTableViewCell.reuseIdentifer, BannerTableViewCell.reuseIdentifer, NewsAndPromotionTableViewCell.reuseIdentifer])
     }
     
     func fetchInfoHome() {
@@ -44,7 +44,10 @@ extension HomeViewController: UITableViewDataSource {
         case .signIn:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "SignInTableViewCell") as? SignInTableViewCell else { return UITableViewCell() }
             return cell
-        case .picture: break
+        case .banner:
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "BannerTableViewCell") as? BannerTableViewCell else { return UITableViewCell() }
+            cell.setup(viewModel: viewModel.bannerViewModel)
+            return cell
         case .newsAndPromotion:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "NewsAndPromotionTableViewCell") as? NewsAndPromotionTableViewCell else { return UITableViewCell() }
             cell.setup(viewModel: viewModel.newsAndPromotionViewModel)

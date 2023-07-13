@@ -13,7 +13,7 @@ class PictureCollectionViewCell: FSPagerViewCell {
     static var size: CGSize {
         let screenWidth = UIScreen.main.bounds.width
         let cellWidth = screenWidth - 144
-        let cellHeight = CGFloat(200)
+        let cellHeight = CGFloat(230)
         return .init(width: cellWidth, height: cellHeight)
     }
     
@@ -25,6 +25,11 @@ class PictureCollectionViewCell: FSPagerViewCell {
     }
     
     func setupImage(imageUrl: String) {
+        image?.clipsToBounds = false
+        image?.contentMode = .scaleAspectFill
+        image?.cornerRadius = 5
+        image?.shadowColor = .clear
+        contentView.layer.shadowColor = UIColor.clear.cgColor
         let imagePath: String = unwrapped(imageUrl, with: "")
         let imageUrl = URL(string: imagePath)
         self.image.setImage(with: imageUrl)

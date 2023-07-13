@@ -9,14 +9,14 @@ import Foundation
 
 enum HomeSectionViewType {
     case signIn
-    case picture
+    case banner
     case newsAndPromotion
     case privileges
     
     static func viewType(by index: Int) -> HomeSectionViewType? {
         switch index {
         case 0: return .signIn
-        case 1: return .picture
+        case 1: return .banner
         case 2: return .newsAndPromotion
         case 3: return .privileges
         default: return nil
@@ -24,7 +24,7 @@ enum HomeSectionViewType {
     }
     
     static var allCases: [HomeSectionViewType] {
-        let cases: [HomeSectionViewType] = [.signIn, .picture, .newsAndPromotion, .privileges]
+        let cases: [HomeSectionViewType] = [.signIn, .banner, .newsAndPromotion, .privileges]
         return cases
     }
 }
@@ -101,7 +101,7 @@ class HomeViewModel {
     }
 
 struct BannerViewModel {
-    var image: [String]?
+    var image: [String]? = []
 }
 
 struct NewsAndPromotionViewModel {
