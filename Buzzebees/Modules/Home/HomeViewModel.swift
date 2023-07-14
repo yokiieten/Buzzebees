@@ -63,6 +63,15 @@ class HomeViewModel {
             if home.type == "cat_header", home.catHeaderEn == "Privileges" {
                 privilegesViewModel.title = home.catHeaderEn
             }
+            
+            if home.type == "bzbs_campaign" {
+                var privilegesDetailViewModel = PrivilegesDetailViewModel()
+                privilegesDetailViewModel.image = home.imageUrl
+                privilegesDetailViewModel.point = home.line1
+                privilegesDetailViewModel.detail =  (home.line2 ?? "") + "\n" + (home.line3 ?? "")
+                privilegesViewModel.detail?.append(privilegesDetailViewModel)
+            }
+            
                 
                 if let config = home.config, config == "campaign_lawson108_news" {
                     newsAndPromotionViewModel.title = home.catHeaderEn
@@ -116,5 +125,11 @@ struct NewsAndPromotionViewModel {
 
 struct PrivilegesViewModel {
     var title: String?
-    var image: [String]? = []
+    var detail: [PrivilegesDetailViewModel]? = []
+}
+
+struct PrivilegesDetailViewModel {
+    var image: String?
+    var point: String?
+    var detail: String?
 }

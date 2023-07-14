@@ -8,3 +8,10 @@ extension UICollectionView {
         }
     }
 }
+
+extension UICollectionViewCell {
+
+    class var reuseIdentifer: String {
+        return String(describing: self)
+    }
+}

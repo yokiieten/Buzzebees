@@ -12,12 +12,20 @@ struct InfoHomeResponse: Codable {
     let catHeaderEn: String?
     let config: String?
     let subCampaignDetails: [SubCampaignDetails]?
+    let line1: String?
+    let line2: String?
+    let line3: String?
+    let imageUrl: String?
     
     enum CodingKeys: String, CodingKey {
         case type = "type"
         case catHeaderEn = "cat_header_en"
         case config = "config"
         case subCampaignDetails = "subcampaigndetails"
+        case line1 = "line1"
+        case line2 = "line2"
+        case line3 = "line3"
+        case imageUrl = "image_url"
     }
 }
 

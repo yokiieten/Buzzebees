@@ -52,6 +52,8 @@
 		D98988142A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98988122A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib */; };
 		D98988272A5FCA0100CB00BB /* InfoHomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98988262A5FCA0100CB00BB /* InfoHomeResponse.swift */; };
 		D98988292A5FCC8F00CB00BB /* InfoHomeTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98988282A5FCC8F00CB00BB /* InfoHomeTargetType.swift */; };
+		D98F746C2A610BC50092A118 /* PrivilegesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F746A2A610BC50092A118 /* PrivilegesCollectionViewCell.swift */; };
+		D98F746D2A610BC50092A118 /* PrivilegesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D98F746B2A610BC50092A118 /* PrivilegesCollectionViewCell.xib */; };
 		D9C79C882A602D99002F6D62 /* UICollectionView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C79C872A602D99002F6D62 /* UICollectionView+RegisterCell.swift */; };
 		D9C79C8F2A6038BA002F6D62 /* BannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C79C8D2A6038BA002F6D62 /* BannerTableViewCell.swift */; };
 		D9C79C902A6038BA002F6D62 /* BannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C79C8E2A6038BA002F6D62 /* BannerTableViewCell.xib */; };
@@ -130,6 +132,8 @@
 		D98988122A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsAndPromotionTableViewCell.xib; sourceTree = "<group>"; };
 		D98988262A5FCA0100CB00BB /* InfoHomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoHomeResponse.swift; sourceTree = "<group>"; };
 		D98988282A5FCC8F00CB00BB /* InfoHomeTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoHomeTargetType.swift; sourceTree = "<group>"; };
+		D98F746A2A610BC50092A118 /* PrivilegesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivilegesCollectionViewCell.swift; sourceTree = "<group>"; };
+		D98F746B2A610BC50092A118 /* PrivilegesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrivilegesCollectionViewCell.xib; sourceTree = "<group>"; };
 		D9C79C872A602D99002F6D62 /* UICollectionView+RegisterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterCell.swift"; sourceTree = "<group>"; };
 		D9C79C8D2A6038BA002F6D62 /* BannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableViewCell.swift; sourceTree = "<group>"; };
 		D9C79C8E2A6038BA002F6D62 /* BannerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerTableViewCell.xib; sourceTree = "<group>"; };
@@ -229,6 +233,8 @@
 			children = (
 				D9282D2F2A602B640053AAF1 /* PictureCollectionViewCell.swift */,
 				D9282D302A602B640053AAF1 /* PictureCollectionViewCell.xib */,
+				D98F746A2A610BC50092A118 /* PrivilegesCollectionViewCell.swift */,
+				D98F746B2A610BC50092A118 /* PrivilegesCollectionViewCell.xib */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -492,6 +498,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D936030D2A5E852A003B74A1 /* LaunchScreen.storyboard in Resources */,
+				D98F746D2A610BC50092A118 /* PrivilegesCollectionViewCell.xib in Resources */,
 				D98988142A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib in Resources */,
 				D90F2A432A5EA70D0081DBA8 /* More.storyboard in Resources */,
 				D9CDC9D92A5E9EE1006F9A63 /* MainTabBar.storyboard in Resources */,
@@ -658,6 +665,7 @@
 				D93603402A5E8D4E003B74A1 /* UIButton.swift in Sources */,
 				D989880F2A5FA96B00CB00BB /* SignInTableViewCell.swift in Sources */,
 				D98988272A5FCA0100CB00BB /* InfoHomeResponse.swift in Sources */,
+				D98F746C2A610BC50092A118 /* PrivilegesCollectionViewCell.swift in Sources */,
 				D90F2A412A5EA7000081DBA8 /* MoreViewController.swift in Sources */,
 				D936034E2A5E8D60003B74A1 /* MoyaService.swift in Sources */,
 				D90F2A3D2A5EA6DF0081DBA8 /* PromotionViewController.swift in Sources */,
