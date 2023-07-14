@@ -25,6 +25,7 @@
                     </label>
                     <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VV9-ay-alV">
                         <rect key="frame" x="452" y="16" width="58" height="22"/>
+                        <color key="tintColor" red="0.23921570180000001" green="0.41176474089999998" blue="0.5647059083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <inset key="imageEdgeInsets" minX="4" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                         <state key="normal" title="More" image="greaterthan" catalog="system">
                             <color key="titleColor" red="0.18823529780000001" green="0.44313728810000003" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
