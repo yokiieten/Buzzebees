@@ -94,7 +94,7 @@ extension BannerTableViewCell: FSPagerViewDataSource {
     func pagerView(_ pagerView: FSPagerView, cellForItemAt index: Int) -> FSPagerViewCell {
         guard
             let cell = pagerView.dequeueReusableCell(
-                withReuseIdentifier: "PictureCollectionViewCell",
+                withReuseIdentifier: PictureCollectionViewCell.reuseIdentifer,
                 at: index
             ) as? PictureCollectionViewCell
         else {
