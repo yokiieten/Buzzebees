@@ -33,6 +33,7 @@ class HomeViewModel {
     var infoHome: [InfoHomeResponse]? = []
     var newsAndPromotionViewModel = NewsAndPromotionViewModel()
     var bannerViewModel = BannerViewModel()
+    var privilegesViewModel = PrivilegesViewModel()
     var didLoadData: (() -> Void)?
     
     func fetchInfoHome() {
@@ -57,6 +58,10 @@ class HomeViewModel {
                         bannerViewModel.image?.append(sub.imageUrl ?? "")
                     }
                 }
+            }
+            
+            if home.type == "cat_header", home.catHeaderEn == "Privileges" {
+                privilegesViewModel.title = home.catHeaderEn
             }
                 
                 if let config = home.config, config == "campaign_lawson108_news" {
@@ -105,6 +110,11 @@ struct BannerViewModel {
 }
 
 struct NewsAndPromotionViewModel {
+    var title: String?
+    var image: [String]? = []
+}
+
+struct PrivilegesViewModel {
     var title: String?
     var image: [String]? = []
 }

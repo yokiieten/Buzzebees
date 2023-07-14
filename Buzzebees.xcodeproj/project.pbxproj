@@ -10,6 +10,8 @@
 		6BD8EABAF3836BAD5F5C9814 /* Pods_Buzzebees.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076780F6253E3ACEF5C37AA2 /* Pods_Buzzebees.framework */; };
 		CC825A3419E3968FD54C25A2 /* Pods_BuzzebeesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 815985A06A07784B930D8B97 /* Pods_BuzzebeesTests.framework */; };
 		CECA069BE62E81029B8C9C8B /* Pods_Buzzebees_BuzzebeesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1857C9526D97BBE2E5BC173 /* Pods_Buzzebees_BuzzebeesUITests.framework */; };
+		D90D61612A60F20C008528B9 /* PrivilegesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D615F2A60F20C008528B9 /* PrivilegesTableViewCell.swift */; };
+		D90D61622A60F20C008528B9 /* PrivilegesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90D61602A60F20C008528B9 /* PrivilegesTableViewCell.xib */; };
 		D90F2A342A5EA67D0081DBA8 /* PrivilegesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F2A322A5EA67D0081DBA8 /* PrivilegesViewController.swift */; };
 		D90F2A372A5EA6960081DBA8 /* Privileges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90F2A362A5EA6960081DBA8 /* Privileges.storyboard */; };
 		D90F2A392A5EA6A90081DBA8 /* MyCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F2A382A5EA6A90081DBA8 /* MyCouponViewController.swift */; };
@@ -82,6 +84,8 @@
 		4A19B59FBD272B9FC36F505C /* Pods-Buzzebees-BuzzebeesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buzzebees-BuzzebeesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Buzzebees-BuzzebeesUITests/Pods-Buzzebees-BuzzebeesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		815985A06A07784B930D8B97 /* Pods_BuzzebeesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuzzebeesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA92B8A11D89AEC34EFAB8D /* Pods-Buzzebees.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buzzebees.debug.xcconfig"; path = "Target Support Files/Pods-Buzzebees/Pods-Buzzebees.debug.xcconfig"; sourceTree = "<group>"; };
+		D90D615F2A60F20C008528B9 /* PrivilegesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivilegesTableViewCell.swift; sourceTree = "<group>"; };
+		D90D61602A60F20C008528B9 /* PrivilegesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrivilegesTableViewCell.xib; sourceTree = "<group>"; };
 		D90F2A322A5EA67D0081DBA8 /* PrivilegesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivilegesViewController.swift; sourceTree = "<group>"; };
 		D90F2A362A5EA6960081DBA8 /* Privileges.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Privileges.storyboard; sourceTree = "<group>"; };
 		D90F2A382A5EA6A90081DBA8 /* MyCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCouponViewController.swift; sourceTree = "<group>"; };
@@ -363,6 +367,8 @@
 				D98988122A5FB86A00CB00BB /* NewsAndPromotionTableViewCell.xib */,
 				D9C79C8D2A6038BA002F6D62 /* BannerTableViewCell.swift */,
 				D9C79C8E2A6038BA002F6D62 /* BannerTableViewCell.xib */,
+				D90D615F2A60F20C008528B9 /* PrivilegesTableViewCell.swift */,
+				D90D61602A60F20C008528B9 /* PrivilegesTableViewCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -490,6 +496,7 @@
 				D90F2A432A5EA70D0081DBA8 /* More.storyboard in Resources */,
 				D9CDC9D92A5E9EE1006F9A63 /* MainTabBar.storyboard in Resources */,
 				D9C79C902A6038BA002F6D62 /* BannerTableViewCell.xib in Resources */,
+				D90D61622A60F20C008528B9 /* PrivilegesTableViewCell.xib in Resources */,
 				D90F2A3F2A5EA6EC0081DBA8 /* Promotion.storyboard in Resources */,
 				D9282D322A602B640053AAF1 /* PictureCollectionViewCell.xib in Resources */,
 				D936030A2A5E852A003B74A1 /* Assets.xcassets in Resources */,
@@ -638,6 +645,7 @@
 				D90F2A342A5EA67D0081DBA8 /* PrivilegesViewController.swift in Sources */,
 				D936033C2A5E8D4E003B74A1 /* UIStackView.swift in Sources */,
 				D936033B2A5E8D4E003B74A1 /* DateFormatComponent.swift in Sources */,
+				D90D61612A60F20C008528B9 /* PrivilegesTableViewCell.swift in Sources */,
 				D9282D312A602B640053AAF1 /* PictureCollectionViewCell.swift in Sources */,
 				D9C79C8F2A6038BA002F6D62 /* BannerTableViewCell.swift in Sources */,
 				D98988292A5FCC8F00CB00BB /* InfoHomeTargetType.swift in Sources */,
