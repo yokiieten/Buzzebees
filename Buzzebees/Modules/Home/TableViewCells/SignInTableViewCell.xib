@@ -20,17 +20,17 @@
                         <rect key="frame" x="0.0" y="100" width="558" height="115"/>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lAI-Ug-rKj">
-                        <rect key="frame" x="103.33333333333334" y="16" width="351.33333333333326" height="169"/>
+                        <rect key="frame" x="118.66666666666669" y="16" width="321" height="169"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="character-hello" translatesAutoresizingMaskIntoConstraints="NO" id="REt-ec-vkY">
-                                <rect key="frame" x="16" y="16" width="100" height="100"/>
+                                <rect key="frame" x="15.999999999999986" y="16" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="0Td-sx-whl"/>
                                     <constraint firstAttribute="width" secondItem="REt-ec-vkY" secondAttribute="height" multiplier="1:1" id="2Wj-14-ImW"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEf-iD-OSN">
-                                <rect key="frame" x="132" y="84.333333333333329" width="75.333333333333314" height="40"/>
+                                <rect key="frame" x="132" y="76.333333333333329" width="117" height="40"/>
                                 <color key="backgroundColor" red="0.19607841970000001" green="0.44313728810000003" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="r6X-pR-8nm"/>
@@ -45,13 +45,13 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELLO GUEST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucF-iz-g4A">
-                                <rect key="frame" x="132" y="15.999999999999998" width="203.33333333333337" height="19.333333333333329"/>
+                                <rect key="frame" x="132" y="15.999999999999998" width="173" height="19.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.2235293984" green="0.48235297199999999" blue="0.72941178080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in to get your rewards" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0z5-vl-QZw">
-                                <rect key="frame" x="132" y="51.333333333333329" width="203.33333333333337" height="17"/>
+                                <rect key="frame" x="132" y="43.333333333333336" width="173" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.2235293984" green="0.48235297199999999" blue="0.72941178080000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -61,13 +61,13 @@
                         <constraints>
                             <constraint firstItem="0z5-vl-QZw" firstAttribute="leading" secondItem="ucF-iz-g4A" secondAttribute="leading" id="1pJ-2q-Az5"/>
                             <constraint firstItem="ucF-iz-g4A" firstAttribute="top" secondItem="lAI-Ug-rKj" secondAttribute="top" constant="16" id="2Sd-Gf-QwF"/>
-                            <constraint firstAttribute="trailing" secondItem="hEf-iD-OSN" secondAttribute="trailing" constant="144" id="6nU-13-XDI"/>
+                            <constraint firstAttribute="trailing" secondItem="hEf-iD-OSN" secondAttribute="trailing" constant="72" id="6nU-13-XDI"/>
                             <constraint firstItem="hEf-iD-OSN" firstAttribute="leading" secondItem="0z5-vl-QZw" secondAttribute="leading" id="CuQ-Hy-0ow"/>
                             <constraint firstItem="hEf-iD-OSN" firstAttribute="top" secondItem="0z5-vl-QZw" secondAttribute="bottom" constant="16" id="F0G-I2-wv1"/>
                             <constraint firstItem="REt-ec-vkY" firstAttribute="leading" secondItem="lAI-Ug-rKj" secondAttribute="leading" constant="16" id="FdU-qj-bVL"/>
                             <constraint firstAttribute="trailing" secondItem="0z5-vl-QZw" secondAttribute="trailing" constant="16" id="MWw-44-9AY"/>
                             <constraint firstItem="REt-ec-vkY" firstAttribute="top" secondItem="lAI-Ug-rKj" secondAttribute="top" constant="16" id="Mxc-fY-N0V"/>
-                            <constraint firstItem="0z5-vl-QZw" firstAttribute="top" secondItem="ucF-iz-g4A" secondAttribute="bottom" constant="16" id="fSy-Sx-WXc"/>
+                            <constraint firstItem="0z5-vl-QZw" firstAttribute="top" secondItem="ucF-iz-g4A" secondAttribute="bottom" constant="8" id="fSy-Sx-WXc"/>
                             <constraint firstAttribute="bottom" secondItem="REt-ec-vkY" secondAttribute="bottom" constant="16" id="mer-au-6YL"/>
                             <constraint firstAttribute="trailing" secondItem="ucF-iz-g4A" secondAttribute="trailing" constant="16" id="p0x-Bu-oNU"/>
                             <constraint firstItem="0z5-vl-QZw" firstAttribute="leading" secondItem="REt-ec-vkY" secondAttribute="trailing" constant="16" id="trF-ns-zY8"/>
